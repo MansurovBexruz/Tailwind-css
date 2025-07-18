@@ -2,11 +2,108 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <link rel="stylesheet" href="./src/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
+    <title>Excellence Healthcare</title>
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body></body>
-  <script type="module" src="/src/main.ts"></script>
+  <body class="bg-green-100  p-10">
+
+    <header class="flex items-center justify-around w-full py-4 px-6">
+      <div class="flex items-center">
+        <img src="./src/img/logo (13).png" alt="Logo" class="h-10 w-auto" />
+      </div>
+      <div class="flex space-x-6 text-gray-800 text-base font-medium">
+        <p class="cursor-pointer hover:text-teal-600">Home</p>
+        <p class="cursor-pointer hover:text-teal-600">Service</p>
+        <p class="cursor-pointer hover:text-teal-600">Doctors</p>
+        <p class="cursor-pointer hover:text-teal-600">Pricing</p>
+      </div>
+          <div class="flex items-center space-x-4">
+        <p class="text-gray-800 font-medium cursor-pointer hover:text-teal-600">Join Doctor</p>
+        <button class="flex items-center justify-center px-5 py-3 rounded-full border border-gray-200 bg-teal-500 text-white text-sm shadow-sm hover:bg-teal-600 transition">
+          Get Appointment
+        </button>
+      </div>
+    </header>
+    
+   <div class=" flex justify-center items-center">
+    <div class="flex flex-wrap justify-between items-center bg-gradient-to-br from-teal-200 to-teal-300 rounded-2xl p-10 w-full max-w-6xl shadow-lg">
+      
+      <div class="flex-1 min-w-[300px] text-gray-900">
+        <h1 class="text-5xl md:text-6xl font-extrabold mb-8">
+          <span class="text-white">Excellenc</span><span class="text-gray-900">e healthcare</span>
+        </h1>
+
+        <div class="flex gap-10 flex-wrap mb-5">
+          <div class="flex items-center gap-3 text-base">
+            <img src="./src/img/Icon.png" alt="Reduce HbA1c icon" class="w-6 h-6" />
+            <p><strong>Reduce HbA1c</strong></p>
+          </div>
+          <div class="flex items-center gap-3 text-base">
+            <img src="./src/img/Icon (1).png" alt="No more medications icon" class="w-6 h-6" />
+            <p><strong>No more medications</strong></p>
+          </div>
+        </div>
+
+        <p class="text-base text-gray-700 mb-8 max-w-md">
+          Prioritizing your well-being with top-tier medical expertise and compassionate care tailored to your needs
+        </p>
+
+        <button class="bg-teal-500 hover:bg-teal-600 text-white px-7 py-3 rounded-lg text-base font-medium transition">
+          Schedule An Appointment
+        </button>
+      </div>
+
+      <div class="flex-1 min-w-[250px] text-center mt-10 md:mt-0">
+        <img src="./src/img/Image (22).png" alt="Doctor Image" class="w-full max-w-xs mx-auto rounded-2xl" />
+      </div>
+      
+    </div>
+   </div>
+   <!-- Services Section -->
+   <section class="flex flex-wrap justify-center gap-6 px-5 py-16">
+    <!-- Card 1: Pink -->
+    <div class="flex flex-col items-start bg-pink-100 rounded-2xl p-8 w-[300px] shadow-lg">
+      <div class="w-10 h-10 mb-5">
+        <img src="./src/img/Icon.png" alt="Qualified Doctors" class="w-full h-auto" />
+      </div>
+      <h3 class="text-xl font-bold mb-4">Qualified Doctors</h3>
+      <p class="text-sm text-gray-700 mb-5">
+        Schedule your appointment with your health consultation with the best doctors in medicare
+      </p>
+      <a href="#" class="bg-black text-white text-sm font-medium px-5 py-3 rounded-full hover:bg-gray-800 transition">
+        Scheduling an Appointment →
+      </a>
+    </div>
+  
+    <!-- Card 2: Green -->
+    <div class="flex flex-col items-start bg-teal-100 rounded-2xl p-8 w-[300px] shadow-lg">
+      <div class="w-10 h-10 mb-5">
+        <img src="./src/img/Icon (1).png" alt="Consultation" class="w-full h-auto" />
+      </div>
+      <h3 class="text-xl font-bold mb-4">Consultation</h3>
+      <p class="text-sm text-gray-700 mb-5">
+        Schedule your appointment with your health consultation with the best doctors in medicare
+      </p>
+      <a href="#" class="bg-black text-white text-sm font-medium px-5 py-3 rounded-full hover:bg-gray-800 transition">
+        Scheduling an Appointment →
+      </a>
+    </div>
+  
+    <!-- Card 3: Yellow -->
+    <div class="flex flex-col items-start bg-yellow-100 rounded-2xl p-8 w-[300px] shadow-lg">
+      <div class="w-10 h-10 mb-5">
+        <img src="./src/img/Icon.png" alt="24/7 Support" class="w-full h-auto" />
+      </div>
+      <h3 class="text-xl font-bold mb-4">24/7 Support</h3>
+      <p class="text-sm text-gray-700 mb-5">
+        Schedule your appointment with your health consultation with the best doctors in medicare
+      </p>
+      <a href="#" class="bg-black text-white text-sm font-medium px-5 py-3 rounded-full hover:bg-gray-800 transition">
+        Scheduling an Appointment →
+      </a>
+    </div>
+  </section>
+  
+  </body>
 </html>
